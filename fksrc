@@ -1,0 +1,10 @@
+#!/bin/sh
+wget -q https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2/javafx-base-19.0.2-linux.jar
+wget -q https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2/javafx-controls-19.0.2-linux.jar
+wget -q https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2/javafx-fxml-19.0.2-linux.jar
+wget -q https://repo.maven.apache.org/maven2/org/openjfx/javafx-media/19.0.2/javafx-media-19.0.2.jar
+wget -q https://repo.maven.apache.org/maven2/org/openjfx/javafx-web/19.0.2/javafx-web-19.0.2-linux.jar
+wget -q https://repo.maven.apache.org/maven2/org/openjfx/javafx-swing/19.0.2/javafx-swing-19.0.2-linux.jar
+mkdir libz
+mv *.jar libz/
+exit 0;
